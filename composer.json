@@ -1,0 +1,14 @@
+{
+    "name": "MikkoTask",
+    "description": "The output of the utility a CSV file, containing the payment dates forthe remainder of this year.",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "5.4.*",
+        "symfony/runtime": "^5.4",
+        "symfony/filesystem": "^5.4"
+    }
+}
